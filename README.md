@@ -5,19 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `yarn build`
-
-Runs the app in the development mode.\
-Open [http://localhost:8080](http://localhost:8080) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn ssr`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It is necessary to use yarn build before starting the server.
 
 ### `yarn build`
 
@@ -28,6 +16,11 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn ssr`
+
+Start the express server
+Open [http://localhost:8080](http://localhost:8080) to view it in your browser.
 
 ### `yarn eject`
 
